@@ -6,8 +6,8 @@ object Constants {
 //  val ACCESS_KEY = "<ACCESS_KEY>"
 //  val SECRET_ACCESS_KEY = "<SECRET_ACCESS_KEY>"
 //  val S3_BUCKET = "<BUCKET_NAME>"
-  val ACCESS_KEY = "AKIAZGNSJUMNY7QLF7FH"
-  val SECRET_ACCESS_KEY = "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"
+  val ACCESS_KEY = "key"
+  val SECRET_ACCESS_KEY = "key"
   val S3_BUCKET = "rajesh-test-buck"
   val ERROR = "ERROR"
 
