@@ -8,6 +8,7 @@ resolvers ++= Seq(
   "Redshift" at "http://redshift-maven-repository.s3-website-us-east-1.amazonaws.com/release"
 )
 
+
 // Spark Core and Spark SQL dependencies
 libraryDependencies ++= Seq(
   "org.apache.spark" % "spark-core_2.11" % "2.1.1",
@@ -15,10 +16,10 @@ libraryDependencies ++= Seq(
 )
 
 // Reading data from s3 SBT dependency
-libraryDependencies += "org.apache.hadoop" % "hadoop-aws" % "2.7.4"
+//libraryDependencies += "org.apache.hadoop" % "hadoop-aws" % "2.7.4"
 
 // Avro dependency
-libraryDependencies += "com.databricks" % "spark-avro_2.11" % "3.2.0"
+//libraryDependencies += "com.databricks" % "spark-avro_2.11" % "3.2.0"
 
 // SFTP dependency
 libraryDependencies += "com.springml" % "spark-sftp_2.11" % "1.1.1"
@@ -36,6 +37,7 @@ libraryDependencies ++= Seq(
 // SBT dependency for MongoDB
 libraryDependencies += "org.mongodb.spark" %% "mongo-spark-connector" % "2.1.1"
 
+libraryDependencies += "com.amazonaws" % "aws-java-sdk-bundle" % "1.11.563"
 //configuration file dependency
 libraryDependencies ++= Seq(
   "com.typesafe.scala-logging" %% "scala-logging" % "3.7.2",
